@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>JavaScript</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+ <table  style="display: flex; justify-content: center;">
+  <tbody >
+    <tr >
+        <div >
+      <td style="width: 300px;"> <input type="button" value="-" onclick="Resize(false, 0)" class="rectangle_red" id="m0" style="width: 300px;">
+      <td><img src="pics/1.jpg" width = "500px" height = "500px" class="img"></td>
+      <td style="width: 300px;"> <input type="button" value="+" onclick="Resize(true, 0)" class="rectangle_green" id="p0" style="width: 300px;">
+      </div>
+    </tr>
+    <tr>
+        <td> <input type="button" value="-" onclick="Resize(false, 1)" class="rectangle_red" id="m1" style="width: 300px;">
+        <td><img src="pics/2.jpg" width = "500px" height = "500px"></td>
+        <td> <input type="button" value="+" onclick="Resize(true, 1)" class="rectangle_green" id="p1" style="width: 300px;">
+      </tr>
+      <tr>
+        <td> <input type="button" value="-" onclick="Resize(false, 2)" class="rectangle_red" id="m2" style="width: 300px;">
+        <td><img src="pics/3.jpg" width = "500px" height = "500px"></td>
+        <td> <input type="button" value="+" onclick="Resize(true, 2)" class="rectangle_green" id="p2" style="width: 300px;">
+      </tr>
+  </tbody>
+</table> 
+<script src="script.js"></script>
+</body>
+</html>
